@@ -1,0 +1,83 @@
+<!--
+- linked
+- gmail
+- phone number
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+
+<body>
+    <header class="site-header">
+        <h1><STRONG id="timenow">PLACEHOLDER</STRONG></h1>
+        <h1>CONTACT ME</h1>
+        <nav>
+            <a href="index.html">HOME</a>
+            <a href="about.html">ABOUT ME</a>
+            <a href="projects.html">MY PROJECTS</a>
+            <a href="skills.html">MY SKILLS</a>
+            <a href="contact.html"><STRONG>CONTACT ME</STRONG></a>
+        </nav>
+    </header>
+
+    <main class="container3">
+        <div class="scrollmenu">
+            <div class="contact-form-container">
+                <h2>Contact Me</h2>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        <span class="error-message" id="nameError"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        <span class="error-message" id="emailError"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone</label>
+                        <input type="tel" id="phone" name="phone" placeholder="Your Phone Number" required>
+                        <span class="error-message" id="phoneError"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                        <span class="error-message" id="messageError"></span>
+                    </div>
+                    <button type="submit" class="submit-button">
+                        Send Message
+                    </button>
+                </form>
+            </div>
+            <div class="contact-form-container2">
+                <h2>I'll be glad to be working with you!</h2>
+                <img src="images\aboutme\1396958f-111c-4597-9059-78335239b553.jpg" alt="adil azfar" width=700px
+                    height=auto>
+            </div>
+        </div>
+
+        <div class="scrollcard" onclick="navigateToPage('index.html')">
+            <section id="about me">
+                <div class="card">
+                    <div class="card2">
+                        <div class="crop">
+                            <h3>BACK TO MAIN</h3>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+    </main>
+</body>
+
+</html>
